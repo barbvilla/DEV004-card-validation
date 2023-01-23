@@ -6,9 +6,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+    <header>
+
+    </header>
+    
+    <main>
+      <input type="type" id="cardnumber" maxlength="16" onkeypress="if(event.keyCode<48  || event.keyCode >57 ) event.returnValue =false"/>
+      <button id="boton" onclick="validate()">Validar</button>
+      <div id="result"></div>
+    </main>
+    
+    <footer>
+
+    </footer>
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
