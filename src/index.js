@@ -13,12 +13,11 @@ function validate() {
   }
   else {
     // Show error message in div#result
-    document.getElementById("result").innerHTML = ("Su tarjeta inválida");
+    document.getElementById("result").innerHTML = ("Su tarjeta es inválida");
     //console.log("else");
   }
 }
-//capture input
-// eslint-disable-next-line no-unused-vars
+
 /*const input = document.getElementById("cardnumber")
 input.addEventListener("keypress", (e)=>{
   console.log(onlyNumbers(e));
