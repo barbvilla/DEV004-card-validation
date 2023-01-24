@@ -1,6 +1,22 @@
-// eslint-disable-next-line no-unused-vars
 import validator from './validator.js';
 
+const validador = document.getElementById("boton");
+validador.addEventListener("click", validate);
+
+function validate() {
+  const valid = validator.isValid(document.getElementById("cardnumber").value);
+    
+  if (valid) {
+    // Show success in div#result
+    document.getElementById("result").innerHTML = ("Su tarjeta es válida");
+    //console.log("if");
+  }
+  else {
+    // Show error message in div#result
+    document.getElementById("result").innerHTML = ("Su tarjeta inválida");
+    //console.log("else");
+  }
+}
 //capture input
 // eslint-disable-next-line no-unused-vars
 /*const input = document.getElementById("cardnumber")
