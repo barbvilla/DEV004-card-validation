@@ -5,15 +5,16 @@ validador.addEventListener("click", validate);
 
 function validate() {
   const valid = validator.isValid(document.getElementById("cardnumber").value);
+  const masked = validator.maskify(document.getElementById("cardnumber").value);  
     
   if (valid) {
     // Show success in div#result
-    document.getElementById("result").innerHTML = ("Su tarjeta es válida");
+    document.getElementById("result").innerHTML = ("Su tarjeta " + masked +  " es válida");
     //console.log("if");
   }
   else {
     // Show error message in div#result
-    document.getElementById("result").innerHTML = ("Su tarjeta es inválida");
+    document.getElementById("result").innerHTML = ("Su tarjeta " + masked + " es inválida");
     //console.log("else");
   }
 }

@@ -7,7 +7,8 @@ function maskify(creditCardNumber) {
   if (creditCardNumber.length < 4) return creditCardNumber;
   const last4Characters = creditCardNumber.substr(-4);
   const maskingCharacters = creditCardNumber.substr(0, creditCardNumber.length -4).replace(/./g, '#');
-  return `${maskingCharacters}${last4Characters}`;
+  const masked = (maskingCharacters + last4Characters);
+  return masked;
 }
 
 function isValid(creditCardNumber) {
@@ -17,7 +18,7 @@ function isValid(creditCardNumber) {
     return false;
   }
   const validNumber = isValidCardNumber(creditCardNumber);
-  return validNumber
+  return validNumber;
 }
 
 function isEmpty(creditCardNumber) {
