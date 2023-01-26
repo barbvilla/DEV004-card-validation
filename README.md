@@ -27,7 +27,7 @@ Esta página fue creada con el fin de que cualquier negocio o comercio la puede 
 
 ## 2. ¿Cómo usar la página?
 
-El usuario al ingresar a este ==[link](https://barbvilla.github.io/DEV004-card-validation/)== verá lo siguiente:
+El usuario al ingresar a este [link](https://barbvilla.github.io/DEV004-card-validation/) verá lo siguiente:
 
 ![Sitio](/src/sitio.png)
 
