@@ -25,7 +25,7 @@ Esta página fue creada con el fin de que cualquier negocio o comercio la puede 
 - CSS
 - Javascript 
 
-## 2. ¿Cómo usar la página?
+## 4. ¿Cómo usar la página?
 
 * El usuario al ingresar a este [link](https://barbvilla.github.io/DEV004-card-validation/) verá lo siguiente:
 
