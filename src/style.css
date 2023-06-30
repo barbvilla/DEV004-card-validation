@@ -8,7 +8,7 @@ body,*{
 }
 
 header{
-    background: #1E1A13;
+    background: #f52b2b;
     color: #ffffff;  
 }
 
@@ -43,7 +43,7 @@ h1{
 
 button{
     background-color: rgb(178, 201, 221);
-    
+    width: 1rem;
 }
 
 input{    
@@ -59,7 +59,7 @@ input{
 }
 
 footer{
-    background: #1E1A13;
+    background: #f52b2b;
     color: #ffffff;
     text-align: right;
     position: absolute;
@@ -69,7 +69,7 @@ footer{
 
 .img_footer{
     margin: 20px;
-    background: #1E1A13;
+    background: transparent;
     width: 100px;
     height: 100px;
 }
