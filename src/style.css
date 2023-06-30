@@ -1,61 +1,80 @@
-body,*{
+*{
     font-family: 'Raleway', sans-serif;
-    background-color:#2b39b3;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: 0px;
     margin: 0px;
     border: 0px;
 }
 
+body{
+    background-image: url('close-up-of-customer-paying-by-credit-card.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 header{
     background: #f52b2b;
-    color: #ffffff;  
+    color: #ffffff;
+    width: 100%;
 }
 
 .img_header{
     margin: 20px;
-    background: #1E1A13;
+    background: transparent;
+    filter: saturate(300%);
     width: 100px;
     height: 100px;
 }
 
 main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;    
+}
+
+.container{
+    position: relative;
+    margin-top: 300px;
+    width: 150%;
 }
 
 h1{
-    margin-bottom: 30px;
-    color: white;
-}
-.container{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
+    color: rgb(0, 0, 0);
+    margin: 20px;
 }
 
-.img_main{
-    width: 30%;
-    height: 30%;
+.number_cc {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.589);
+    height: 400px;
 }
 
 button{
-    background-color: rgb(178, 201, 221);
-    width: 1rem;
+    background-color: #f52b2b;
+    color: #ffffff;
+    height: 30px;
+    width: 70px;
+    border-radius: 25px;
+    margin-left: 5px;
 }
 
-input{    
-    margin: 10px;
+input{
     background-color: white;
+    border: solid 1px black;
+    font-size: large;
+    height: 30px;
+    width: auto;
 }
 
 #result{
-    margin-top: 30px;
-    font-size: x-large;
-    color: white;
-
+    font-size: large;
+    color: rgb(0, 0, 0);
 }
 
 footer{
@@ -65,6 +84,7 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
+    filter: saturate(300%);
 }
 
 .img_footer{
