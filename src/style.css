@@ -28,10 +28,6 @@ header{
 }
 
 main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
@@ -41,18 +37,22 @@ main{
     width: 150%;
 }
 
+.number_cc {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.589);
+    height: 300px;
+}
+
 h1{
     color: rgb(0, 0, 0);
     margin: 20px;
 }
 
-.number_cc {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.589);
-    height: 400px;
+.cc{
+   margin: 80px 0;
 }
 
 button{
@@ -75,6 +75,7 @@ input{
 #result{
     font-size: large;
     color: rgb(0, 0, 0);
+    margin: 20px;
 }
 
 footer{

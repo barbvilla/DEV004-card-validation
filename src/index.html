@@ -15,8 +15,10 @@
         
         <div class="number_cc">
           <h1>Verifica si tu tarjeta de crédito es válida</h1>
-          <input type="type" id="cardnumber" maxlength="16" onkeypress="if(event.keyCode<48  || event.keyCode >57 ) event.returnValue =false"/>
-          <button id="boton" onclick="validate()">Validar</button>
+          <div class="cc">
+            <input type="type" id="cardnumber" maxlength="16" onkeypress="if(event.keyCode<48  || event.keyCode >57 ) event.returnValue =false"/>
+            <button id="boton" onclick="validate()">Validar</button>
+          </div>
           <div id="result"></div>
         </div>
         
